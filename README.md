@@ -22,6 +22,12 @@ do the recommended
 git config --global --add safe.directory /mnt/e/Repos/sweetalert2-clean
 ```
 
+### One-liner
+
+```
+git clone https://github.com/aolko/sweetalert2-clean && cd sweetalert2-clean && npm install --save && npm install --save @sweetalert2/execute && npm run build
+```
+
 ---
 
 <a href="https://sweetalert2.github.io/">
