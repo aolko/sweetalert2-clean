@@ -32,3 +32,7 @@ jobs:
       uses: borales/actions-yarn@v4
       with:
         cmd: build # will run `yarn build` command
+    - uses: actions/upload-artifact@v3
+      with:
+        name: Build
+        path: dist
