@@ -36,3 +36,4 @@ jobs:
       with:
         name: Build
         path: dist
+    - run: zip -r sweeatalert-clean-dist.zip dist/
