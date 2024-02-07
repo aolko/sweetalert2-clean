@@ -2,18 +2,19 @@
 If you want a protestware version - feel free to check the original.
 
 ## How to build
+### Linux/WSL2 recommended
 
-1. Install latest nodejs (13+) and yarn
+1. Install latest LTS nodejs (20+) and yarn
 2. Install the dependencies
 ```
-npm install --save
+yarn install
 ```
-3. Install the *totally necessary* `@sweetalert2/execute`
+3. Build the library
 ```
-npm install --save @sweetalert2/execute
+yarn build
 ```
-4. Build the library
-\* If git will complain about the "unsafe repository"
+
+### If git complains about the "unsafe repository"
 ```
 fatal: unsafe repository ('/mnt/e/Repos/sweetalert2-clean' is owned by someone else)
 ```
@@ -25,7 +26,7 @@ git config --global --add safe.directory /mnt/e/Repos/sweetalert2-clean
 ### One-liner
 
 ```
-git clone https://github.com/aolko/sweetalert2-clean && cd sweetalert2-clean && npm install --save && npm install --save @sweetalert2/execute && npm run build
+git clone https://github.com/aolko/sweetalert2-clean && cd sweetalert2-clean && yarn install && yarn build
 ```
 
 ---
