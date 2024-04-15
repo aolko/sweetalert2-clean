@@ -29,6 +29,10 @@ git config --global --add safe.directory /mnt/e/Repos/sweetalert2-clean
 git clone https://github.com/aolko/sweetalert2-clean && cd sweetalert2-clean && yarn install && yarn build
 ```
 
+### Releases
+
+Please note that static releases are available in the ["Releases" section](/../../releases), while edge ones are available [as artifacts](/../../actions/workflows/npm-yarn.yml).
+
 ---
 
 <a href="https://sweetalert2.github.io/">
